@@ -11,13 +11,14 @@ body{
 .container{
     width : 860px;
     height: 860px;
-    background-color: black;
+    //background-color: black;
     display: flex;
     flex-wrap: wrap;
 }
 
 .gridElement{
     background-color: white;
+    //transition: background-color 0.3s;
 }
 
 .gridElement:hover{
